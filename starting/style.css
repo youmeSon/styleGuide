@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navBar li {
+  list-style: none;
+}
+.navBar ul {
+  background-color: palevioletred;
+  line-height: 3;
+  font-family: "Roboto Mono";
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  padding: 30px;
+  margin: 0;
+  background-color: rgb(245, 233, 212);
+  font-family: "Josefin Sans";
+}
+.colors {
+  border: 3px solid gray;
+  margin: 5px 20px;
+  padding: 10px 20px;
+}
+
+.colors i {
+  color: mediumslateblue;
+  margin-right: 5px;
+}
+.colors span {
+  color: midnightblue;
+  font-size: 40px;
+}
+
+.colorDescription {
+  list-style: none;
+  padding-right: 50px;
+  width: 100%;
+  margin-right: 0;
+  padding-left: 100px;
+  padding-bottom: 80px;
+  padding-top: 30px;
+  max-width: fit-content;
+}
+
+.colorDescription span {
+  line-height: 2;
+  font-size: 25px;
+  font-family: "Roboto Mono", sans;
+  color: rgb(247, 244, 244);
+}
+.colors ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#red {
+  background: url(./img/redFF0000.png);
+  background-size: cover;
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+#orangered {
+  background: url(./img/orangeRedFF6600.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#oreangeyellow {
+  background: url(./img/orangeYellowFFCC00.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#green {
+  background: url(./img/green00FF00.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#teal {
+  background: url(./img/teal028482.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#lightblue {
+  background: url(./img/lightBlue34DDDD.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#midnightblue {
+  background: url(./img/midnightBlue003366.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#grey {
+  background: url(./img/greyCCCCCC.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#deeppink {
+  background: url(./img/deepPinkFF0080.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#black {
+  background: url(./img/black000000.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* fonts */
+.fonts {
+  border: 3px solid gray;
+  margin: 5px 20px;
+  padding: 10px 20px;
+}
+.fonts i {
+  color: mediumslateblue;
+  margin-right: 5px;
+}
+.fonts span {
+  color: midnightblue;
+  font-size: 40px;
+}
+
+.eachFonts {
+  text-align: center;
+  padding: 20px;
+}
+.fonts ul li {
+  font-size: 20px;
+  list-style: none;
+}
+.fonts .fontsEachTitle {
+  text-decoration: underline;
+  font-size: 30px;
+}
+#san3 {
+  font-family: "Sansita Swashed";
+  font-weight: 300;
+  word-spacing: 0.3em;
+}
+#san4 {
+  font-family: "Sansita Swashed";
+  font-weight: 400;
+  word-spacing: 0.3em;
+}
+#san7 {
+  font-family: "Sansita Swashed";
+  font-weight: 700;
+  word-spacing: 0.3em;
+}
+#rob4 {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+}
+#rob7 {
+  font-family: "Roboto Mono";
+  font-weight: 700;
+}
+#robb4 {
+  font-family: "Roboto Mono";
+  font-weight: 400;
+  font-style: italic;
+}
+#robb7 {
+  font-family: "Roboto Mono";
+  font-weight: 700;
+  font-style: italic;
+}
+#mer4 {
+  font-family: "Merriweather";
+  font-weight: 400;
+  word-spacing: 0.3em;
+}
+#merb7 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  word-spacing: 0.3em;
+}
+#meri4 {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-style: italic;
+  word-spacing: 0.3em;
+}
+#meri7 {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-style: italic;
+  word-spacing: 0.3em;
+}
+#joe2 {
+  font-family: "Josefin Sans";
+  font-weight: 200;
+  word-spacing: 0.2em;
+}
+#joe4 {
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  word-spacing: 0.2em;
+}
+#joe7 {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  word-spacing: 0.2em;
+}
+#joeb4 {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 400;
+  word-spacing: 0.2em;
+}
+#joeb7 {
+  font-family: "Josefin Sans";
+  font-style: italic;
+  font-weight: 700;
+  word-spacing: 0.2em;
+}
+.textStyle {
+  border: 3px solid gray;
+  margin: 5px 20px;
+  padding: 10px 20px;
+}
+.textStyle i {
+  color: mediumslateblue;
+  margin-right: 5px;
+}
+.textStyle span {
+  color: midnightblue;
+  font-size: 40px;
+}
+
+.textStyleBox {
+  border: 2px solid midnightblue;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+}
+footer {
+  background-color: midnightblue;
+  color: white;
+  padding: 20px;
+  display: flex;
+  font-family: "Robota Mono";
+  font-size: 15px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 10px;
+  font-family: "josefin sans";
+}
